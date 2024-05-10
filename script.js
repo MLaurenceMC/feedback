@@ -63,7 +63,7 @@ function calculateGraphs(k1, k2, k3) {
     if(document.getElementById('switch').checked){
       input = x < 1 ? 0 : x < 2.5 ? 10 : x < 3.5 ? -5 : x < 4.5 ? 20*x-73 : x < 5.5 ? -20*x+103 : 0;
     }else{
-      input = x <= 1 ? 0 : 5; //step function
+      input = x <= 2 ? 0 : 10; //step function
     }
     input_data.push({x, y: input});
     // feedback function calculation
