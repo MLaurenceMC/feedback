@@ -6,17 +6,17 @@ let {k1, k2, k3} = translate(f, z, r);
 
 document.getElementById('f').addEventListener('input', function() {
   f = document.getElementById('f').value / 1000;
-  document.getElementById('f-txt').innerHTML = f;
+  document.getElementById('f-txt').innerHTML = Number(f).toFixed(2);
   updateGraph();
 });
 document.getElementById('z').addEventListener('input', function() {
   z = document.getElementById('z').value / 1000;
-  document.getElementById('z-txt').innerHTML = z;
+  document.getElementById('z-txt').innerHTML = Number(z).toFixed(2);
   updateGraph();
 });
 document.getElementById('r').addEventListener('input', function() {
   r = document.getElementById('r').value / 100;
-  document.getElementById('r-txt').innerHTML = r;
+  document.getElementById('r-txt').innerHTML = Number(r).toFixed(2);
   updateGraph();
 });
 
