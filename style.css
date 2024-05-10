@@ -29,7 +29,7 @@ body{
   display: flex;
   aspect-ratio: 5/1;
   flex-direction: row;
-  grid-column-gap: 20%;
+  grid-column-gap: 10%;
   justify-content: center;
   align-items: center;
   position: relative; 
@@ -39,7 +39,7 @@ body{
   border-radius: 5%;
   width: 100%;
   display: flex;
-  aspect-ratio: 4/3;
+  aspect-ratio: 2/1;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
@@ -58,7 +58,7 @@ body{
 }
 .box .text p{
   line-height: 1;
-  font-size: clamp(1vw, 1.5vw, 2vw);
+  font-size: clamp(9px,1.5vw,24px);
 }
 .box .number{
   height: 50%;
@@ -72,7 +72,7 @@ body{
 .box .number p{
   line-height: 1;
   font-weight: bold;
-  font-size: clamp(2vw, 2.7vw ,2.8vw);
+  font-size: clamp(12px, 2vw ,48px);
 }
 
 
@@ -91,7 +91,7 @@ body{
 }
 .slider-div p{
   font-weight: 600;
-  font-size: clamp(1vw, 2vw, 2.3vw);
+  font-size: clamp(12px,2.3vw,24px);
 }
 
 .slider {
