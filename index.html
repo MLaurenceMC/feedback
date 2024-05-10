@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <div class="slider-div">
+    <p>[ f ]:</p>
+    <input type="range" min="0" max="2000" value="1000" class="slider" id="f">
+    <p id="f-txt">1</p>
+  </div>
+  <div class="slider-div">
+    <p>[ z ]:</p>
+    <input type="range" min="0" max="2000" value="1000" class="slider" id="z">
+    <p id="z-txt">1</p>
+  </div>
+  <div class="slider-div">
+    <p>[ r ]:</p>
+    <input type="range" min="-1000" max="1000" value="0" class="slider" id="r">
+    <p id="r-txt">0</p>
+  </div>
+
+  <div class="k_vals">
+    <div class="box">
+      <div class="text">
+        <p>[ k1 ]:</p>
+      </div>
+      <div class="number">
+        <p id="k1"></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="text">
+        <p>[ k2 ]:</p>
+      </div>
+      <div class="number">
+        <p id="k2"></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="text">
+        <p>[ k3 ]:</p>
+      </div>
+      <div class="number">
+        <p id="k3"></p>
+      </div>
+    </div>
+  </div>
+  
+  <div style="text-align: center;">
+    <canvas id="myChart" width="400" height="400"></canvas>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fcf8ed;
+  font-family: 'Clear Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.k_vals{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  grid-column-gap: 20%;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  width: 600px;
+}
+.box{
+  border-radius: 5%;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; 
+  border: 1px solid #C6CACE;
+  box-shadow: 0px 1px 2px 0px #1F1E241F;
+}
+.box .text{
+  height: 40%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+.box .text p{
+  line-height: 1;
+  font-size: 100%;
+}
+.box .number{
+  height: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+.box .number p{
+  line-height: 1;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+
+.slider-div {
+  display: flex;
+  width: 600px;
+  height: 35px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #C6CACE;
+  box-shadow: 0px 1px 2px 0px #1F1E241F;
+}
+.slider-div p{
+  font-weight: 600;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 4px;
+  border-radius: 5px;
+  background: #D5DBE1;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);
+  transition: 0.3s ease-in-out;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+#myChart {
+  height: 400px;
+  width: 800px;
+}
