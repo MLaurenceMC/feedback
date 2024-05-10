@@ -102,3 +102,15 @@ const myChart = new Chart(ctx, {
 });
 
 updateGraph();
+
+function adjustAspectRatio() {
+    var box = document.querySelector('.UI');
+    var maxWidth = 800;  // Maximum content width
+    var margin = 30; // Margin on each side
+    var availableWidth = window.innerWidth - 2 * margin;
+        width = Math.min(availableWidth, maxWidth);
+    box.style.width = width + 'px';
+    box.style.margin = margin + 'px auto'; // Set margin and center horizontally
+}
+window.addEventListener('resize', adjustAspectRatio);
+document.addEventListener('DOMContentLoaded', adjustAspectRatio);
