@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2nd Order Feedback</title>
+  <title>Second Order graphing</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -54,6 +54,18 @@
         </div>
       </div>
     </div>
+
+    <div class="checkbox-wrapper-35">
+      <input value="private" name="switch" id="switch" type="checkbox" class="switch">
+      <label for="switch">
+        <span class="switch-x-text">Input is </span>
+        <span class="switch-x-toggletext">
+          <span class="switch-x-unchecked"><span class="switch-x-hiddenlabel">Unchecked: </span>Step function</span>
+          <span class="switch-x-checked"><span class="switch-x-hiddenlabel">Checked: </span>Dynamic function</span>
+        </span>
+      </label>
+    </div>
+
     
     <div class="graph">
       <canvas id="myChart" width="400" height="400"></canvas>
