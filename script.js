@@ -57,7 +57,7 @@ function calculateGraphs(k1, k2, k3) {
   let feedback_y = 0;
   let der_y = 0;
   
-  for (let x = 0; x <= 10; x+=T) {
+  for (let x = 0; x <= 7; x+=T) {
     // input function calcuation
     let input = 0;
     if(document.getElementById('switch').checked){
