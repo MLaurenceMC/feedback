@@ -58,7 +58,7 @@ body{
 }
 .box .text p{
   line-height: 1;
-  font-size: 2vw;
+  font-size: clamp(1vw, 1.5vw, 2vw);
 }
 .box .number{
   height: 50%;
@@ -72,7 +72,7 @@ body{
 .box .number p{
   line-height: 1;
   font-weight: bold;
-  font-size: 3.5vw;
+  font-size: clamp(2vw, 2.7vw ,2.8vw);
 }
 
 
@@ -91,7 +91,7 @@ body{
 }
 .slider-div p{
   font-weight: 600;
-  font-size: 2.3vw;
+  font-size: clamp(1vw, 2vw, 2.3vw);
 }
 
 .slider {
@@ -140,3 +140,5 @@ body{
   align-items: center;
   position: relative; 
 }
+/* gapppp */
+
