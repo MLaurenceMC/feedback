@@ -72,7 +72,7 @@ body{
 .box .number p{
   line-height: 1;
   font-weight: bold;
-  font-size: clamp(12px, 2vw ,48px);
+  font-size: clamp(12px, 2vw ,40px);
 }
 
 
@@ -91,7 +91,7 @@ body{
 }
 .slider-div p{
   font-weight: 600;
-  font-size: clamp(12px,2.3vw,24px);
+  font-size: clamp(12px,2.3vw,20px);
 }
 
 .slider {
